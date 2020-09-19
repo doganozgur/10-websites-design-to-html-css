@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;400;500;700&display=swap');
+
+/* General Styling */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #cb021c;
+  transition: background 0.4s ease-in-out;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Top */
+.hamburger {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  font-size: 2rem;
+}
+
+.phone {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.logo .fas {
+  font-size: 3rem;
+}
+
+.logo h2 {
+  font-size: 2.54rem;
+  font-weight: 100;
+  margin: 0;
+}
+
+.logo p {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Carousel */
+.carousel-container {
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  margin-top: 10rem;
+}
+
+.carousel {
+  position: absolute;
+  display: flex;
+  left: 0;
+  top: 0;
+  transform: translateX(0);
+}
+
+.slide {
+  width: 100vw;
+  text-align: center;
+}
+
+.slide img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.slide h1 {
+  font-size: 4rem;
+  color: #fff;
+  margin-top: -2rem;
+}
+
+.slide a {
+  background-color: #40020e;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+
+.arrow {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  color: #000;
+  opacity: 0.5;
+  font-size: 5rem;
+  top: 40%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.left-arrow {
+  left: 2rem;
+}
+
+.right-arrow {
+  right: 2rem;
+}
