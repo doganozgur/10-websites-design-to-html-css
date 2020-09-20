@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Nav */
+nav {
+  margin: 3rem 0 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+.inner-nav {
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row ul {
+  display: flex;
+}
+
+.row a {
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+.big {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.blue {
+  color: #007ff4;
+  font-weight: bold;
+}
+
+/* Showcase */
+header {
+  background: url(images/banner.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 300px;
+  margin: 2rem 0;
+}
+
+/* Services */
+.col {
+  flex: 1;
+  padding: 1rem;
+  text-align: center;
+}
+
+.col img {
+  width: 100%;
+}
+
+.col p {
+  text-align: start;
+}
+
+h2 {
+  margin: 1rem 0 0.5rem;
+  font-size: 2rem;
+}
+
+.text-center {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+button {
+  border: none;
+  background-color: #007ff4;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
